@@ -95,20 +95,19 @@ jobs:
           - soundfile: soundfile
           - python-version: "3.10"
             numpy: numpy==1.22.4
-            onnxruntime: onnxruntime==1.18.1
+            onnxruntime: onnxruntime==1.20.1
             hf-hub: huggingface-hub==0.30.2
             typing: typing-extensions==4.6.0
           - python-version: "3.11"
             numpy: numpy~=1.26
-            onnxruntime: onnxruntime~=1.20.1
+            onnxruntime: onnxruntime~=1.22.1
             hf-hub: huggingface-hub~=0.36
           - python-version: "3.12"
             numpy: numpy~=2.0.2
-            onnxruntime: onnxruntime~=1.22.1
+            onnxruntime: onnxruntime~=1.23.2
             hf-hub: huggingface-hub~=1.0.1
           - python-version: "3.13"
             numpy: numpy~=2.3.5
-            onnxruntime: onnxruntime~=1.23.2
           - python-version: "3.13t"
             os: ubuntu-latest
             soundfile: ""
@@ -123,7 +122,7 @@ jobs:
             soundfile: soundfile
           - os: windows-11-arm
             numpy: numpy~=2.3.5
-            onnxruntime: onnxruntime~=1.24.2
+            onnxruntime: onnxruntime~=1.24.4
           - os: windows-11-arm
             python-version: "3.14"
             numpy: ""

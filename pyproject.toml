@@ -39,8 +39,14 @@ classifiers = [
 ]
 
 [project.optional-dependencies]
-cpu = ["onnxruntime>=1.18.1"]
-gpu = ["onnxruntime-gpu>=1.18.1"]
+cpu = [
+    "onnxruntime<1.24; python_version < '3.11'",
+    "onnxruntime>=1.20.1, != 1.24.1, != 1.25.*, != 1.26.0",
+]
+gpu = [
+    "onnxruntime-gpu<1.24; python_version < '3.11'",
+    "onnxruntime-gpu>=1.20.1, != 1.24.1, != 1.25.*, != 1.26.0",
+]
 hub = ["huggingface-hub>=0.30.2"]
 
 [project.urls]

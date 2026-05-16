@@ -58,7 +58,7 @@ The supported platforms are primarily determined by available ONNX Runtime wheel
 | Package | Minimum Version |
 |---------|-----------------|
 | numpy | 1.22.4 |
-| onnxruntime | 1.18.1 (or any ONNX Runtime package) |
+| onnxruntime | 1.20.1 (or any ONNX Runtime package) |
 | huggingface-hub | 0.30.2 (optional, for model downloading) |
 | typing-extensions | 4.6.0 (Python < 3.11 only) |
 
